@@ -1,0 +1,66 @@
+{
+  "form": {
+    "fields": [
+      {
+        "id": "abc1234",
+        "type": "text",
+        "label": "Full Name",
+        "placeholder": "Enter your full name",
+        "required": true,
+        "css_class": "full-width",
+        "min_chars": 2,
+        "max_chars": 100
+      },
+      {
+        "id": "def5678",
+        "type": "email",
+        "label": "Email Address",
+        "placeholder": "you@example.com",
+        "required": true
+      },
+      {
+        "id": "ghi9012",
+        "type": "phone",
+        "label": "Phone Number",
+        "placeholder": "+91 XXXXX XXXXX",
+        "required": false
+      },
+      {
+        "id": "jkl3456",
+        "type": "dropdown",
+        "label": "Department",
+        "required": true,
+        "options": ["Engineering", "Design", "Marketing", "Operations"]
+      },
+      {
+        "id": "mno7890",
+        "type": "radio",
+        "label": "Experience Level",
+        "required": true,
+        "options": ["0-2 years", "2-5 years", "5+ years"]
+      },
+      {
+        "id": "pqr1234",
+        "type": "checkbox",
+        "label": "Skills",
+        "required": false,
+        "options": ["Laravel", "Vue.js", "React", "Alpine.js", "Tailwind CSS"]
+      },
+      {
+        "id": "stu5678",
+        "type": "textarea",
+        "label": "Cover Letter",
+        "placeholder": "Tell us about yourself...",
+        "required": false,
+        "min_chars": 50,
+        "max_chars": 500
+      },
+      {
+        "id": "vwx9012",
+        "type": "hidden",
+        "label": "Source",
+        "default": "job-portal-2026"
+      }
+    ]
+  }
+}
